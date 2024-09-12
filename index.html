@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Cookie</title>
+</head>
+<body>
+
+    <header> 
+        <span class="logo"> 
+            <a href="/">FoodieXYZ</a> 
+        </span>
+
+        <nav class="navigation-header"> 
+            <a href="#">Inicio</a> 
+            <a href="#">Recetas</a> 
+            <a href="#">Blog</a> 
+            <a href="#">Contacto</a> 
+            <a href="#">Nosotros</a> 
+        </nav>
+
+        <ul class="social-links">
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </li>
+        </ul>
+        
+        <button class="btn-menu-responsive">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+
+        <div class="menu-mobile">
+            <div class="btn-close"> 
+                <i class="fa-solid fa-x"></i> 
+            </div>
+            
+            <span class="logo">
+                <a href="/">FoodieXYZ</a> 
+            </span>
+
+            <nav class="navigation-mobile"> 
+                <a href="#1">Inicio</a> 
+                <a href="#2">Recetas</a> 
+                <a href="#3">Blog</a> 
+                <a href="#4">Contacto</a> 
+                <a href="#5">Nosotros</a> 
+            </nav>
+
+            <ul class="social-links">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="container section-banner-hero">
+        <div class="content">
+            <span class="badge-hot-recipes">
+                <i class="fa-solid fa-fire-flame-curved"></i>
+                Recetas Calientes
+            </span>
+
+            <h1>Alitas de Pollo Picantes</h1>
+
+            <p>
+                "Crujientes, sabrosas y perfectamente condimentadas: Disfrute de la receta definitiva de deliciosas alitas de pollo que le dejarán con ganas demás"
+            </p>
+
+            <div class="badges">
+                <span>
+                    <i class="fa-solid fa-clock"></i>
+                    30 minutos
+                </span>
+                <span>
+                    <i class="fa-solid fa-utensils"></i>
+                    Pollo
+                </span>
+            </div>
+
+            <button>
+                Ver Resetas
+                <a href="https://alessaflores.github.io/alitass/" class="a"><i class="fa-solid fa-circle-play"></i></a>
+            </button>
+        </div>    
+
+        <div class="container-img">
+            <img src="img/img-banner-hero.webp" alt="Imagen Banner Hero">
+        </div>
+        
+    </section>
+
+    <section class="container section-categories">
+        <div class="header">
+            <h2>Categorias</h2>
+
+            <a href="#" class="btn-all-categories">
+                Ver todas las Categorias
+            </a>
+        </div>
+
+        <div class="list-card-categories">
+            <div class="card-category breakfast">
+                <img src="img/icono-desayuno.svg" alt="Icono Desayuno">
+                <p>Desayuno</p>
+            </div>
+            <div class="card-category vegan">
+                <img src="img/icono-vegano.svg" alt="Icono Vegani">
+                <p>Vegano</p>
+            </div>
+            <div class="card-category meat">
+                <img src="img/icono-carne.svg" alt="Icono Carne">
+                <p>Carne</p>
+            </div>
+            <div class="card-category desert">
+                <img src="img/icono-cake.svg" alt="Icono Postre">
+                <p>Postre</p>
+            </div>
+            <div class="card-category chocolate">
+                <img src="img/icono-chocolate.svg" alt="Icono Chocolate">
+                <p>Chocolate</p>
+            </div>
+        </div>
+    </section>
+    <main class="container">
+        <h2>Recetas Sencillass y Sabrosas</h2>
+        <p>
+            Deliciosas culinarias sencillas para mejorar tu cocina diaria.
+            Descubre comidas rápidas y deliciosas que impresionarán a sus invitados y harán de cada comida una ocasion especial.
+        </p>
+
+        <div class="list-card-recipes">
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-1.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/pancakessss/">Pancakes de avena y fresa con jarabe de miel </a>
+                    </h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Desayuno
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-2.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/salmon/">Salmón asado con lima fresca y salsa de jengibre</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Pescado
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-3.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div> 
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/hamburguesa/">Gran Hamburguesa de carne de res Wagyu</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Aperitivo
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-4.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/ensalada/">Ensalada mixta saludable y fresca con mayonesa</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Saludable
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-5.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/albondigas/">Albóndigas de pollo con queso crema</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <sapn class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Carne
+                        </sapn>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-6.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/pasta/">Pasta cremosa de pollo y tocino</a>
+                    </h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Fideos
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-7.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/pancakessss/">Pancakes de avena y fresa con jarabe de miel </a>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Carne
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-8.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/arroz/">Arroz con pollo y verduras en una sola olla</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Aperitivo
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+          
+            <div class="card-massage">
+                <p>¡No olvides comer comida Saludable!</p>
+                <img src="img/plate-food.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <section class="container section-chef">
+        <div class="content">
+            <h2>Cada uno puede ser Chef en su propia cocina</h2>
+            <p>Descubra resetas faciles y deliciosas para dar rienda suelta al artista culinario que lleva dentro y hacer de cada comida una obra maestra</p>
+            <button class="btn">
+                Aprender Mas
+            </button>
+        </div>
+
+        <div class="container-img">
+            <img src="img/img-chef.png" alt="">
+        </div>
+    </section>
+
+    <section class="section-posts-instagram">
+        <div class="container section-instagram">
+            <h2>Echa un vistzo a @foodiexyz en <span>Instagram</span></h2>
+
+            <p>¡Inspirate con fotografias deliciosas, resetas deliciosas y consejos de cocina para emjorar tus habilidades culinarias!</p>
+
+            <div class="list-post-instagram">
+                <div class="card-img">
+                    <img src="img/post-instagram-1.png" alt="">
+                </div>
+                <div class="card-img">
+                    <img src="img/post-instagram-2.png" alt="">
+                </div>
+                <div class="card-img">
+                    <img src="img/post-instagram-3.png" alt="">
+                </div>
+                <div class="card-img">
+                    <img src="img/post-instagram-4.png" alt="">
+                </div>  
+            </div>         
+        </div>
+    </section>
+
+    <div class="container section-more-recipes">
+        <h2>Prueba esta receta para alegrarte el dia</h2>
+        <p>Deleitate con creaciones sabrosas. Desde Clasicos reconfortantes hasta giros innovadores, descubre platos que alegran cada comida</p>
+        <div class="list-card-recipes">
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-9.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/ensaladas/">Ensalada tropical de frutas con super alimentos</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Saludable
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-10.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div> 
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/fu-iletes/">Filete de carne de Wagyu con papas fritas</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Carne
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-11.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/frito/">Arroz frito japonés con espárragos</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Oriental
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-12.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/taco/">Taco vegetariano de coliflor y nueces</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <sapn class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Occidental
+                        </sapn>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-13.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/poollo/">Ensalada de pollo arcoíris con almendras y miel</a>
+                    </h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Saludable
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-14.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/sandwich/">Sandwich picante de barbacoa con papas fritas</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Aperitivo
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-15.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/frito/">Arroz frito japonés con espárragos</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Mariscos
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-recipe">
+                <div class="container-img">
+                    <img src="img/img-recipe-16.webp" alt="">
+                    <button class="btn-favorite">
+                        <i class="fa-solid fa-heart"></i>
+                    </button>
+                </div>
+                <div class="content">
+                    <h3><a href="https://alessaflores.github.io/ramen/">Sopa ramen de pollo con champiñones</a></h3>
+                    <div class="footer">
+                        <span class="time">
+                            <i class="fa-solid fa-clock"></i>
+                            30 minutos
+                        </span>
+                        <span class="category">
+                            <i class="fa-solid fa-utensils"></i>
+                            Oriental
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container section-newsletter">
+        <h2>Delicias en tu correo</h2>
+        <p>Suscribite para recibir recetas deliciosas, consejos culinarios e inspiración gastronomica directamente en tu correo electrónico.
+        </p>
+        <div class="container-input">
+            <input type="email" placeholder="Tu correo electronico">
+            <button class="btn">Suscribete</button>
+        </div>
+    </div>
+
+    <footer class="container">
+        <div class="pri">
+            <span class="logo">
+                <a href="/">FoodieXYZ</a> 
+            </span>
+
+            <nav class="navigation-footer"> 
+                <a href="#">Recetas</a> 
+                <a href="#">Blog</a> 
+                <a href="#">Contacto</a> 
+                <a href="#">Nosotros</a> 
+            </nav>
+        </div>
+
+        <div class="second-section">
+            <div></div>
+            <p class="copyright">
+                &copy; 2024 - Alessandra Flores
+            </p>
+            <ul class="social-links">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+            
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
